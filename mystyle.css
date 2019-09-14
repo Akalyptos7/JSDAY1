@@ -1,3 +1,7 @@
+/* * {
+    border: 2px solid red;
+} */
+
 body{
     background-color: #eee;
 }
@@ -35,6 +39,7 @@ font-size: 24px;
 
 table{
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 th {
@@ -49,4 +54,8 @@ td {
 
 th, td {
     border: 1px solid grey;
+}
+
+.highlighted {
+    background-color: yellow;
 }
